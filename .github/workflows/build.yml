@@ -31,7 +31,9 @@ jobs:
           sudo mv pandoc-crossref /bin
 
       - name: Create pdf
-        run: make -j2
+        run: |
+          mkdir output
+          make -j2
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
