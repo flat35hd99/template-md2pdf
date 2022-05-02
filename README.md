@@ -2,7 +2,7 @@
 
 ## How to use
 
-1. Click `Use Template` button on GitHub.
+1. Click `Use this template` button on GitHub.
 2. Write what you want to tell.(most important)
 3. Turn on your GitHub Actions on this repository at `Actions` tab.
 4. Push your source files
